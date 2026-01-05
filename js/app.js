@@ -18,7 +18,7 @@ const OST_DATA = {
     { title: "Opening Theme", file: "anime/opening.mp3" }
   ],
   series: [
-    { title: "Intro Series", file: "series/intro.mp3" }
+    { title: "Intro Series", file: "movie/intro.mp3" }
     ]
 };
 
