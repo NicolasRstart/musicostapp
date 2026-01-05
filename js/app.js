@@ -5,12 +5,12 @@ const OST_DATA = {
    ,{ title: "Main Theme", file: "game/main_theme3.mp3" }
    ,{ title: "Main Theme", file: "game/main_theme4.mp3" }
    ,{ title: "Main Theme", file: "game/main_theme5.mp3" }
-   ,{ title: "Main Theme", file: "game/main_theme2.mp3" }
-   ,{ title: "Main Theme", file: "game/main_theme2.mp3" }
-   ,{ title: "Main Theme", file: "game/main_theme2.mp3" }
-   ,{ title: "Main Theme", file: "game/main_theme2.mp3" }
-   ,{ title: "Main Theme", file: "game/main_theme2.mp3" }
-   ,{ title: "Main Theme", file: "game/main_theme2.mp3" }
+   ,{ title: "Main Theme", file: "game/main_theme6.mp3" }
+   ,{ title: "Main Theme", file: "game/main_theme7.mp3" }
+   ,{ title: "Main Theme", file: "game/main_theme8.mp3" }
+   ,{ title: "Main Theme", file: "game/main_theme9.mp3" }
+   ,{ title: "Main Theme", file: "game/main_theme10.mp3" }
+   ,{ title: "Main Theme", file: "game/main_theme11.mp3" }
    
 
   ],
