@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <title>anime OST</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module">
+  import { auth } from "./js/firebase.js";
+  import { onAuthStateChanged } from 
+    "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+  onAuthStateChanged(auth, user => {
+    if (!user) {
+      window.location.href = "login.html";
+    }
+  });
+</script>
   <style>
     body {
       background: #0b0b14;
@@ -39,6 +50,16 @@
 
 <div id="tracks"></div>
 
-<script src="anime.js"></script>
+<script src="anime.js">
+    import { auth } from "./js/firebase.js";
+  import { onAuthStateChanged } from 
+    "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+  onAuthStateChanged(auth, user => {
+    if (!user) {
+      window.location.href = "login.html";
+    }
+  });
+</script>
 </body>
 </html>
