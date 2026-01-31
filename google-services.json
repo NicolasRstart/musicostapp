@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "100511994243",
+    "project_id": "ost-player-web",
+    "storage_bucket": "ost-player-web.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100511994243:android:0a83d202ec704aede566b6",
+        "android_client_info": {
+          "package_name": "com.nicolasruocco.ostplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCtXyo_7j2RGTmg7tuNsrbA2y4fWmOHxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

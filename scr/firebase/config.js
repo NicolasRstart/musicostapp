@@ -3,13 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "TU_API_KEY",
-  authDomain: "TU_DOMINIO",
-  databaseURL: "TU_DATABASE_URL",
-  projectId: "TU_PROJECT_ID",
-  storageBucket: "TU_BUCKET",
-  messagingSenderId: "ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyC-example",
+  authDomain: "ost-player.firebaseapp.com",
+  databaseURL: "https://ost-player-default-rtdb.firebaseio.com",
+  projectId: "ost-player",
+  storageBucket: "ost-player.appspot.com",
+  messagingSenderId: "1234567890",
+  appId: "1:1234567890:web:abcdef"
 };
 
 const app = initializeApp(firebaseConfig);
